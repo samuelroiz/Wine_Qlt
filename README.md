@@ -10,7 +10,7 @@
 
 ## About the Data
 
-![Type of Wine Count](https://github.com/samuelroiz/Wine_Qlt/tree/main/Images/Info_Data/count_type_of_wine.png)
+![Type of Wine Count](https://raw.githubusercontent.com/samuelroiz/Wine_Qlt/main/Images/Info_Data/count_type_of_wine.png)
 
 <p> In the following image, there is 24.6 percent of red wine and 75.4 percentage of white wine. This is important information because if the model wants to predict the type of wine, then the percentage of types must be converted to fifty-fifty. If not converted, then the model will have outliers and bias feedback since white win is favored. </p>
 
