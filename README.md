@@ -8,5 +8,11 @@
 
 <p> Density in the wine means the mass per volume as the water has a density of 0.997 gram cubic centimeters, but wine has a density of 1.080 to 1.090-gram cubic centimeters. The wine juice density founded to have eight to ten percent denser than water. Once the wine juice merges alcohol and sugar, the density of wine intends to be around 0.996 gram cubic centimeters. pH is a measurement of the acidity and base of water ranging from 0 to 14. The levels are zero is acid, seven is neutral, and fourteen is base. pH level lower than seven is more acidity as higher is more base. In wine, the pH is three to four due to fixed acidity, volatile acidity, citric acid, and other added substances. pH plays an essential role in wine to support balancing and prevent too much acid.   </p>
 
-## Data
+## About the Data
+
+![Type of Wine Count](https://github.com/samuelroiz/Wine_Qlt/tree/main/Images/Info_Data/count_type_of_wine.png)
+
+<p> In the following image, there is 24.6 percent of red wine and 75.4 percentage of white wine. This is important information because if the model wants to predict the type of wine, then the percentage of types must be converted to fifty-fifty. If not converted, then the model will have outliers and bias feedback since white win is favored. </p>
+
+<p></p>
 
