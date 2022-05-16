@@ -16,3 +16,75 @@
 
 <p></p>
 
+## Model Steps
+
+## Predict Wine Type
+
+### Step 1 to 3 
+![Step 1 to 3](https://raw.githubusercontent.com/samuelroiz/Wine_Qlt/main/Images/Presentation/step_1_to_3.png)
+
+### Step 4
+
+![Step 4](https://raw.githubusercontent.com/samuelroiz/Wine_Qlt/main/Images/Presentation/step_4.png)
+
+![Step 4 Part 1](https://raw.githubusercontent.com/samuelroiz/Wine_Qlt/main/Images/Presentation/step_4_part_1.png)
+
+<p> The 'X' is assigned as all of the columns except the "type" column since the "type" column is assigned to 'y' as the target for the model. The model will have one target column and the rest of the columns will be the data to support the model predictions.   </p>
+
+![Step 4 Part 2](https://raw.githubusercontent.com/samuelroiz/Wine_Qlt/main/Images/Presentation/step_4_part_2.png)
+
+<p> The following image displays the steps of SMOTE, train, split, and test code. All models must use the SMOTE, train, split, and test because it allows the AI to determine the data to get the best results for the model. Almost professional fields such as engineering, data analysis, actuaries, and others use SMOTE, train, split, or test for their models to get their best interest. </p>
+
+#### How does SMOTE work and what is it doing to the data? 
+
+<p> Synthetic Minority Oversampling Technique, or SMOTE for short. SMOTE permits users to solve data sets with irregular data to oversample the examples in the minority class. For example, if you have 90 red motorcars and 10 white automobiles. There are 90% more red cars than white cars if this data is applied to a model to predict a red or white car. The feedback of the model will be biased since there are more additional red cars in the data set. The synthetic minority oversampling technique can aid balance the class distribution but does not provide any additional information to the model. In the following example, SMOTE is applied then the data set will have fifty red and white autos. Now, the algorithm will not have biased feedback. Almost professional fields such as engineering, data analysis, actuaries, and others use SMOTEfor their models to get their best interest. </p>
+
+#### How does train and test work and what is it doing to the data?
+
+<p>Train data helps the model prediction and develops an algorithm of 70% or more of the data. Big data sets use the training method to get the best results. Testing helps the model to check the prediction rate by taking a small portion of the data and testing the model whether it works efficiently.  </p>
+
+### Step 5
+
+![Step 5](https://raw.githubusercontent.com/samuelroiz/Wine_Qlt/main/Images/Presentation/step_5.png)
+
+![Linear Regression Example](https://raw.githubusercontent.com/samuelroiz/Wine_Qlt/main/Images/Presentation/step_5_part_1_example.png)
+
+#### For knowledge review, what is Linear Regression? 
+<p> Linear regression is used to model and predict a relationship. Predicts a dependent variable, given values from an independent variable. There are two basic types. The Simple linear regression and multiple linear regression. Both types predict an independent variable using the linear equation. </p>
+
+![Linear Regression Example Formula](https://raw.githubusercontent.com/samuelroiz/Wine_Qlt/main/Images/Presentation/step_5_part_1_example_2.png)
+
+![Linear Regression Example Formula](https://raw.githubusercontent.com/samuelroiz/Wine_Qlt/main/Images/Presentation/step_5_part_1_example_3.png)
+
+![Linear Regression Example Formula](https://raw.githubusercontent.com/samuelroiz/Wine_Qlt/main/Images/Presentation/step_5_part_1_example_4.png)
+
+<p>The basic linear regression has a dependent variable labeled as 'y', 'm' is the slope, 'x' is the independent variable, and 'b' is the y-intercept. The greek linear regression has a dependent variable labeled as 'y', 'B_1' is the slope, 'x' is the independent variable, and 'B_0' is the y-intercept. The multivariate linear regression has a dependent variable labeled as 'y', 'B_n' is the slope, 'x_n' is the independent variable, and 'B_0' is the y-intercept. </p>
+
+![Step 5 Part 1](https://raw.githubusercontent.com/samuelroiz/Wine_Qlt/main/Images/Presentation/step_5_part_1.png)
+
+#### How does Logistic Regression work and what is it doing to the data?
+<p>Logistic regression is a classification algorithm used to predict a discrete set of classes or categories. Unlike linear regression, which outputs continuous numerical values (for example, age), logistic regression applies an activation function, such as the sigmoid function, to return a probability value of 0 or 1. This can then be mapped to a discrete class like “Sad” or “Happy".</p>
+
+![Step 5 Part 2](https://raw.githubusercontent.com/samuelroiz/Wine_Qlt/main/Images/Presentation/step_5_part_2.png)
+
+![Step 5 Part 4,5, and 6](https://raw.githubusercontent.com/samuelroiz/Wine_Qlt/main/Images/Presentation/step_5_part_4_and_5_and_6.png)
+
+#### How does RFE work and what is it doing to the data?
+
+<p> Recursive Feature Elimination, or RFE for short. RFE helps select those columns in a training dataset to determine their relevance in predicting the target variable. It will print true or false as true tells the column is beneficial to the target as false is nonrelevant to the target. </p>
+
+### Step 6
+
+![Step 6](https://raw.githubusercontent.com/samuelroiz/Wine_Qlt/main/Images/Presentation/step_6.png)
+
+![Step 6 Part 1](https://raw.githubusercontent.com/samuelroiz/Wine_Qlt/main/Images/Presentation/step_6_part_1.png)
+
+### Step 7
+
+![Step 6](https://raw.githubusercontent.com/samuelroiz/Wine_Qlt/main/Images/Presentation/step_7.png)
+
+## Predict Wine Quality greater than or equal to 8
+
+![Step 6](https://raw.githubusercontent.com/samuelroiz/Wine_Qlt/main/Images/Presentation/target_wine_quality_outcome.png)
+
+
