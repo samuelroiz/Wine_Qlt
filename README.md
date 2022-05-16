@@ -84,8 +84,7 @@
 
 #### What is the ROC curve and what is it doing to the data?
 
-<p>Receiver Operating Characteristic, or for short ROC curve. ROC curve is a useful tool when predicting the probability of a binary outcome. It plots the false alarm rate versus the hit rate. False-positive rate (x-axis) vs. the true positive rate (y-axis) for different candidates' threshold values between 0.0 and 1.0. The true positive rate is also known as sensitivity and the false-negative rate as specificity. Either in general or for different thresholds curves of different models can be directly compared. The area under the curve, referred to as AUC can be used as a summary of the model skill. The shape of the curve conveys useful information, such as the expected false positive rate, and 
-the false-negative rate.  </p>
+<p>Receiver Operating Characteristic, or for short ROC curve. ROC curve is a useful tool when predicting the probability of a binary outcome. It plots the false alarm rate versus the hit rate. False-positive rate (x-axis) vs. the true positive rate (y-axis) for different candidates' threshold values between 0.0 and 1.0. The true positive rate is also known as sensitivity and the false-negative rate as specificity. Either in general or for different thresholds curves of different models can be directly compared. The area under the curve, referred to as AUC can be used as a summary of the model skill. The shape of the curve conveys useful information, such as the expected false positive rate, and the false-negative rate.  </p>
 
 ![Step 6](https://raw.githubusercontent.com/samuelroiz/Wine_Qlt/main/Images/Presentation/step_7.png)
 
