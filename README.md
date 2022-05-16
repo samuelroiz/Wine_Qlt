@@ -29,7 +29,8 @@
 
 ![Step 4 Part 1](https://raw.githubusercontent.com/samuelroiz/Wine_Qlt/main/Images/Presentation/step_4_part_1.png)
 
-<p> The 'X' is assigned as all of the columns except the "type" column since the "type" column is assigned to 'y' as the target for the model. The model will have one target column and the rest of the columns will be the data to support the model predictions.   </p>
+#### Important note:
+<p><b> The 'X' is assigned as all of the columns except the "type" column since the "type" column is assigned to 'y' as the target for the model. The model will have one target column and the rest of the columns will be the data to support the model predictions. This applies to all of the codes. </b> </p>
 
 ![Step 4 Part 2](https://raw.githubusercontent.com/samuelroiz/Wine_Qlt/main/Images/Presentation/step_4_part_2.png)
 
@@ -52,26 +53,26 @@
 #### For knowledge review, what is Linear Regression? 
 <p> Linear regression is used to model and predict a relationship. Predicts a dependent variable, given values from an independent variable. There are two basic types. The Simple linear regression and multiple linear regression. Both types predict an independent variable using the linear equation. </p>
 
+<p>The basic linear regression has a dependent variable labeled as 'y', 'm' is the slope, 'x' is the independent variable, and 'b' is the y-intercept. The greek linear regression has a dependent variable labeled as 'y', 'B_1' is the slope, 'x' is the independent variable, and 'B_0' is the y-intercept. The multivariate linear regression has a dependent variable labeled as 'y', 'B_n' is the slope, 'x_n' is the independent variable, and 'B_0' is the y-intercept. </p>
+
 ![Linear Regression Example Formula](https://raw.githubusercontent.com/samuelroiz/Wine_Qlt/main/Images/Presentation/step_5_part_1_example_2.png)
 
 ![Linear Regression Example Formula](https://raw.githubusercontent.com/samuelroiz/Wine_Qlt/main/Images/Presentation/step_5_part_1_example_3.png)
 
 ![Linear Regression Example Formula](https://raw.githubusercontent.com/samuelroiz/Wine_Qlt/main/Images/Presentation/step_5_part_1_example_4.png)
 
-<p>The basic linear regression has a dependent variable labeled as 'y', 'm' is the slope, 'x' is the independent variable, and 'b' is the y-intercept. The greek linear regression has a dependent variable labeled as 'y', 'B_1' is the slope, 'x' is the independent variable, and 'B_0' is the y-intercept. The multivariate linear regression has a dependent variable labeled as 'y', 'B_n' is the slope, 'x_n' is the independent variable, and 'B_0' is the y-intercept. </p>
+#### How does Logistic Regression work and what is it doing to the data?
+<p>Logistic regression is a classification algorithm used to predict a discrete set of classes or categories. Unlike linear regression, which outputs continuous numerical values (for example, age), logistic regression applies an activation function, such as the sigmoid function, to return a probability value of 0 or 1. This can then be mapped to a discrete class like “Sad” or “Happy". Unlike linear regression, logistic regression has complex different formula. The formula is logit(p) = ln(p/(1-p)) = b_0 + b_1 * X_1 + b_2 * X_ 2 + b_3 * X_3… + b_k * X_k. The p equals the probability of the occurrence of the component, x_k is the set of input characteristics of x, and b_k is the parameter values to be calculated in the logistic regression instructions. The main formula in logistic regression is a equation from the Sigmoid function is given as y=1/(1+e^x), but can be written as y=1/(1+e^-(b_0 + b_1 * x). Keep in mind, that this is the simple logistic regression formula. </p>
 
 ![Step 5 Part 1](https://raw.githubusercontent.com/samuelroiz/Wine_Qlt/main/Images/Presentation/step_5_part_1.png)
 
-#### How does Logistic Regression work and what is it doing to the data?
-<p>Logistic regression is a classification algorithm used to predict a discrete set of classes or categories. Unlike linear regression, which outputs continuous numerical values (for example, age), logistic regression applies an activation function, such as the sigmoid function, to return a probability value of 0 or 1. This can then be mapped to a discrete class like “Sad” or “Happy".</p>
-
 ![Step 5 Part 2](https://raw.githubusercontent.com/samuelroiz/Wine_Qlt/main/Images/Presentation/step_5_part_2.png)
-
-![Step 5 Part 4,5, and 6](https://raw.githubusercontent.com/samuelroiz/Wine_Qlt/main/Images/Presentation/step_5_part_4_and_5_and_6.png)
 
 #### How does RFE work and what is it doing to the data?
 
-<p> Recursive Feature Elimination, or RFE for short. RFE helps select those columns in a training dataset to determine their relevance in predicting the target variable. It will print true or false as true tells the column is beneficial to the target as false is nonrelevant to the target. </p>
+<p> Recursive Feature Elimination, or RFE for short. RFE helps select those columns in a training dataset to determine their relevance in predicting the target variable. It will print true or false as true tells the column is beneficial to the target as false is nonrelevant to the target. The next image is an example and the outcome of RFE in this model as you can see all of the columns are printed as true. This tells the model that all of the columns are beneficial to the target. </p>
+
+![Step 5 Part 4,5, and 6](https://raw.githubusercontent.com/samuelroiz/Wine_Qlt/main/Images/Presentation/step_5_part_4_and_5_and_6.png)
 
 ### Step 6
 
@@ -81,7 +82,14 @@
 
 ### Step 7
 
+#### What is the ROC curve and what is it doing to the data?
+
+<p>Receiver Operating Characteristic, or for short ROC curve. ROC curve is a useful tool when predicting the probability of a binary outcome. It plots the false alarm rate versus the hit rate. False-positive rate (x-axis) vs. the true positive rate (y-axis) for different candidates' threshold values between 0.0 and 1.0. The true positive rate is also known as sensitivity and the false-negative rate as specificity. Either in general or for different thresholds curves of different models can be directly compared. The area under the curve, referred to as AUC can be used as a summary of the model skill. The shape of the curve conveys useful information, such as the expected false positive rate, and 
+the false-negative rate.  </p>
+
 ![Step 6](https://raw.githubusercontent.com/samuelroiz/Wine_Qlt/main/Images/Presentation/step_7.png)
+
+<p> The outcome of the ROC curve is .98 for predicting the wine type as it represents the model is successful. Since the ROC curve is .98, the formula will predict if it is red or white with a two percent chance of an error. </p>
 
 ## Predict Wine Quality greater than or equal to 8
 
